@@ -1,255 +1,243 @@
-make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-# GNU Make 4.3
-# Built for x86_64-redhat-linux-gnu
-# Copyright (C) 1988-2020 Free Software Foundation, Inc.
-# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
-# This is free software: you are free to change and redistribute it.
-# There is NO WARRANTY, to the extent permitted by law.
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
 
-# Make data base, printed on Tue Jul  5 19:40:25 2022
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Thu Jul 07 19:27:29 2022
 
 # Variables
 
-# environment
-GDK_BACKEND = x11
-# environment
-LC_ALL = C
-# environment
-NO_AT_BRIDGE = 1
-# environment
-GJS_DEBUG_OUTPUT = stderr
-# environment
-LOCAL_GIT_DIRECTORY = /usr/lib/github-desktop/resources/app/git
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-bd715ef5-02de-497f-bdcc-3a552ed7e375.sock
-# environment
-VSCODE_CWD = /home/neusse
-# environment
-WINDOWPATH = 2
-# environment
-GDM_LANG = en_US.UTF-8
-# default
-MAKE_COMMAND := make
-# environment
-GTK3_MODULES = xapp-gtk3-module
-# environment
-define BASH_FUNC_which%%
-() {  ( alias;
- eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
-}
-endef
-# automatic
-@D = $(patsubst %/,%,$(dir $@))
-# environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# default
-.VARIABLES := 
-# environment
-PWD = /home/neusse/Documents/GitHub/TinyBasicPlus
-# automatic
-%D = $(patsubst %/,%,$(dir $%))
-# environment
-HOSTNAME = fedora
-# environment
-MAIL = /var/spool/mail/neusse
-# environment
-XDG_DATA_DIRS = /home/neusse/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/
-# automatic
-^D = $(patsubst %/,%,$(dir $^))
-# environment
-VSCODE_LOG_STACK = false
-# automatic
-%F = $(notdir $%)
-# environment
-VSCODE_CODE_CACHE_PATH = /home/neusse/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
-# environment
-LANG = C
-# environment
-XAUTHORITY = /run/user/1000/gdm/Xauthority
-# default
-.LOADED := 
-# default
-.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
-# makefile
-MAKEFLAGS = pqrR
-# makefile
-CURDIR := /home/neusse/Documents/GitHub/TinyBasicPlus
-# environment
-VSCODE_PIPE_LOGGING = true
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# environment
-LESSOPEN = ||/usr/bin/lesspipe.sh %s
-# automatic
-*D = $(patsubst %/,%,$(dir $*))
-# environment
-MFLAGS = -pqrR
-# environment
-SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
-# default
-.SHELLFLAGS := -c
-# environment
-HISTSIZE = 1000
-# automatic
-+D = $(patsubst %/,%,$(dir $+))
-# environment
-XDG_SESSION_DESKTOP = cinnamon
-# makefile
-MAKEFILE_LIST := 
-# automatic
-@F = $(notdir $@)
-# environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-VSCODE_PID = 11468
-# environment
-XDG_SESSION_TYPE = x11
-# automatic
-?D = $(patsubst %/,%,$(dir $?))
-# environment
-SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/1669,unix/unix:/tmp/.ICE-unix/1669
-# automatic
-*F = $(notdir $*)
-# environment
-CHROME_DESKTOP = code-url-handler.desktop
-# environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
-# environment
-VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
-# default
-MAKE_HOST := x86_64-redhat-linux-gnu
-# environment
-GNOME_DESKTOP_SESSION_ID = this-is-deprecated
-# environment
-IMSETTINGS_INTEGRATE_DESKTOP = yes
-# makefile
-SHELL = /bin/sh
-# default
-MAKECMDGOALS := all
-# environment
-XMODIFIERS = @im=none
-# environment
-PLATFORMIO_CALLER = vscode
-# environment
-GJS_DEBUG_TOPICS = JS ERROR;JS LOG
-# environment
-SHLVL = 1
-# environment
-MAKELEVEL := 0
-# default
-MAKE = $(MAKE_COMMAND)
-# environment
-IMSETTINGS_MODULE = none
-# environment
-PATH = /home/neusse/.local/bin:/home/neusse/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/usr/libexec/sdcc
-# environment
-MOZ_GMP_PATH = /usr/lib64/mozilla/plugins/gmp-gmpopenh264/system-installed
-# default
-MAKEFILES := 
-# automatic
-^F = $(notdir $^)
-# environment
-CINNAMON_VERSION = 5.2.7
-# environment
-VSCODE_LOG_NATIVE = false
-# environment
-USERNAME = neusse
 # automatic
 ?F = $(notdir $?)
 # environment
-XDG_SEAT = seat0
+ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
-GTK_IM_MODULE = gtk-im-context-simple
+GTK_BASEPATH = C:\Program Files (x86)\GtkSharp\2.12\
+# environment
+CARBON_MEM_DISABLE = 1
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+MSDEVDIR = C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+PLATFORMIO_IDE = 2.5.0
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/georg/Documents/GitHub/TinyBasicPlus
+# default
+SHELL := C:/WinAVR-20100110/utils/bin/sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+ONEDRIVE = C:\Users\georg\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile
+MAKEFILE_LIST := 
+# environment
+TMP = C:\Users\georg\AppData\Local\Temp
+# environment
+CUDA_PATH_V11_0 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PBP_MPASM = C:\Program Files (x86)\PBP3_1\temp\
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-3f7d4ce8-992b-4806-959c-e3a29ffb76de-sock
+# environment
+VSCODE_CWD = C:\Users\georg\AppData\Local\GitHubDesktop\app-3.0.3
 # environment
 NO_PROXY = 127.0.0.1
 # environment
-XDG_CURRENT_DESKTOP = X-Cinnamon
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
-KDEDIRS = /usr
-# automatic
-+F = $(notdir $+)
+CHOCOLATEYLASTPATHUPDATE = 132612496231856683
 # environment
-DESKTOP_SESSION = cinnamon
+PROCESSOR_ARCHITECTURE = x86
 # environment
-ORIGINAL_XDG_CURRENT_DESKTOP = X-Cinnamon
-# 'override' directive
-GNUMAKEFLAGS := 
+USERPROFILE = C:\Users\georg
 # environment
-LOGNAME = neusse
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
-GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/github-desktop.desktop
+ALLUSERSPROFILE = C:\ProgramData
 # environment
-PLATFORMIO_PATH = /home/neusse/.platformio/python3/bin:/home/neusse/.local/bin:/home/neusse/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/usr/libexec/sdcc
+GOPATH = C:\Users\georg\go
 # environment
-XDG_VTNR = 2
-# makefile
-.DEFAULT_GOAL := 
+VSCODE_LOG_STACK = false
 # environment
-SYSTEMD_EXEC_PID = 1566
-# environment
-HISTCONTROL = ignoredups
-# environment
-EDITOR = /usr/bin/nano
-# environment
-DISPLAY = :0
-# environment
-USER = neusse
-# default
-MAKE_VERSION := 4.3
-# environment
-which_declare = declare -f
-# environment
-DEBUGINFOD_URLS = https://debuginfod.fedoraproject.org/ 
-# environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 6777
-# environment
-SSH_AGENT_PID = 1855
-# environment
-_ = /usr/bin/make
-# environment
-XDG_RUNTIME_DIR = /run/user/1000
-# environment
-S_COLORS = auto
-# environment
-GTK_OVERLAY_SCROLLING = 0
-# environment
-XDG_SESSION_CLASS = user
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
-# environment
-PLATFORMIO_IDE = 2.5.0
-# environment
-HOME = /home/neusse
-# environment
-QT_IM_MODULE = xim
-# environment
-WISECONFIGDIR = /usr/share/wise2/
+NUMBER_OF_PROCESSORS = 12
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-c2b371c0-1.68.1-main.sock
-# environment
-TERM = dumb
-# environment
-XDG_SESSION_ID = 2
+LIB = C:\Program Files (x86)\Microsoft Visual Studio\VC98\mfc\lib;C:\Program Files (x86)\Microsoft Visual Studio\VC98\lib
 # default
-.RECIPEPREFIX := 
+.FEATURES := target-specific order-only second-expansion else-if archives
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
 # automatic
-<F = $(notdir $<)
-# default
-SUFFIXES := 
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3660_HXWBJHBRNYVVNICX
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = AMD-RYZEN-5
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.0
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+AVR32_HOME = C:\WinAVR-20100110
+# environment
+USERNAME = georg
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 VSCODE_CLI = 1
 # environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
-# default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+VSCODE_CODE_CACHE_PATH = C:\Users\georg\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
-GDMSESSION = cinnamon
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\AMD-RYZEN-5
+# environment
+ONEDRIVECONSUMER = C:\Users\georg\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = AMD-RYZEN-5
+# environment
+PLATFORMIO_PATH = C:\Users\georg\.platformio\python3;C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Program Files (x86)\Microchip\MPLAB IDE\VDI;C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\usbipd-win\;C:\Program Files\CMake\bin;C:\Program Files (x86)\WinSCP\;C:\Program Files\Git\cmd;C:\Program Files\Microchip\xc8\v2.36\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;C:\Program Files (x86)\Microsoft Visual Studio\VC98\bin;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\libnvvp;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files (x86)\WinSCP\;C:\Users\georg\AppData\Roaming\Python\Python38\Scripts;C:\Users\georg\OneDrive\Desktop\common-intern-master;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\NVIDIA Corporation\Nsight Compute 202;C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Program Files (x86)\Microchip\MPLAB IDE\VDI;C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\usbipd-win\;C:\Program Files\CMake\bin;C:\Program Files (x86)\WinSCP\;C:\Program Files\Git\cmd;C:\Program Files\Microchip\xc8\v2.36\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;C:\Program Files (x86)\Microsoft Visual Studio\VC98\bin;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\libnvvp;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files (x86)\WinSCP\;C:\Users\georg\AppData\Roaming\Python\Python38\Scripts;C:\Users\georg\OneDrive\Desktop\common-intern-master;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\NVIDIA Corporation\Nsight Compute 202
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Program Files (x86)\Microchip\MPLAB IDE\VDI;C:\Program Files (x86)\HI-TECH Software\PICC\PRO\9.65\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microchip\xc8\v2.31\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\usbipd-win\;C:\Program Files\CMake\bin;C:\Program Files (x86)\WinSCP\;C:\Program Files\Git\cmd;C:\Program Files\Microchip\xc8\v2.36\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;C:\Program Files (x86)\Microsoft Visual Studio\VC98\bin;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\libnvvp;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files (x86)\WinSCP\;C:\Users\georg\AppData\Roaming\Python\Python38\Scripts;C:\Users\georg\OneDrive\Desktop\common-intern-master;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\NVIDIA Corporation\Nsight Compute 202
+# environment
+LOCAL_GIT_DIRECTORY = C:\Users\georg\AppData\Local\GitHubDesktop\app-3.0.3\resources\app\git
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := 
+# environment
+INCLUDE = C:\Program Files (x86)\Microsoft Visual Studio\VC98\atl\include;C:\Program Files (x86)\Microsoft Visual Studio\VC98\mfc\include;C:\Program Files (x86)\Microsoft Visual Studio\VC98\include
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\georg\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\Intel\
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\98e71d17c37b564fff7918c2b615538d-1.68.1-main-sock
+# environment
+HOMEPATH = \Users\georg
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\georg\AppData\Roaming
+# environment
+TEMP = C:\Users\georg\AppData\Local\Temp
+# environment
+SYSTEMDRIVE = C:
+# environment
+AMDRMPATH = C:\Program Files\AMD\RyzenMaster\
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+NVCUDASAMPLES11_0_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.0
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# environment
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0
+# default
+SUFFIXES := 
+# environment
+FERNET_KEY = hGqXImIskaFCJs-1oyZT55yZoN3Qvc9vmb74MJHfglQ=
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 7100
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+VSCODE_PID = 3660
+# environment
+USERDOMAIN_ROAMINGPROFILE = AMD-RYZEN-5
 # variable set hash-table stats:
-# Load=117/1024=11%, Rehash=0, Collisions=7/144=5%
+# Load=112/1024=11%, Rehash=0, Collisions=13/128=10%
 
 # Pattern-specific Variable Values
 
@@ -257,9 +245,12 @@ GDMSESSION = cinnamon
 
 # Directories
 
-# . (device 40, inode 1837021): 9 files, no impossibilities.
+# C:\Program Files\ImageMagick-7.1.0-Q16-HDRI (key C:/Program Files/ImageMagick-7.1.0-Q16-HDRI, mtime 1654960941): 80 files, no impossibilities.
+# . (key c:/Users/georg/Documents/GitHub/TinyBasicPlus, mtime 1657247233): 10 files, no impossibilities.
+# C:\WinAVR-20100110\bin (key C:/WinAVR-20100110/bin, mtime 1654571012): 75 files, no impossibilities.
+# C:\WinAVR-20100110\utils\bin (key C:/WinAVR-20100110/utils/bin, mtime 1654571021): 99 files, no impossibilities so far.
 
-# 9 files, no impossibilities in 1 directories.
+# 264 files, no impossibilities in 4 directories.
 
 # Implicit Rules
 
@@ -268,11 +259,13 @@ GDMSESSION = cinnamon
 # Files
 
 # Not a target:
-Makefile:
+all:
+#  Command-line target.
 #  Implicit rule search has been done.
 #  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
 .DEFAULT:
@@ -281,43 +274,46 @@ Makefile:
 #  File has not been updated.
 
 # Not a target:
-all:
-#  Command line target.
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-makefile:
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
- 
-make: *** No rule to make target 'all'.  Stop.
-
-#  Failed to be updated.
-
-# Not a target:
 GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has been updated.
 #  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # files hash-table stats:
-# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# Load=5/1024=0%, Rehash=0, Collisions=0/16=0%
 # VPATH Search Paths
 
-# No 'vpath' search paths.
+# No `vpath' search paths.
 
-# No general ('VPATH' variable) search path.
+# No general (`VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 17 / storage = 153 B / avg = 9 B
-# current buf: size = 8162 B / used = 153 B / count = 17 / avg = 9 B
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# strcache performance: lookups = 20 / hit rate = 15%
-# hash-table stats:
-# Load=17/8192=0%, Rehash=0, Collisions=0/20=0%
-# Finished Make data base on Tue Jul  5 19:40:25 2022
+# Finished Make data base on Thu Jul 07 19:27:29 2022
 
  
+make.exe: *** No rule to make target `all'.  Stop.
+
